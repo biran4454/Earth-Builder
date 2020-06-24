@@ -16,4 +16,7 @@ class ObjectSet{
   void add(Object object){
     contents.add(object);
   }
+  Object get(int get){
+    return contents.get(get);
+  }
 }

@@ -21,5 +21,6 @@ void setup(){
   plants.setup();
 }
 void draw(){
-  
+  println(plants.get(0).getAttrByName("Scientific Name"));
+  println(plants.get(0).getAttrByID(0));
 }
